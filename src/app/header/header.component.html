@@ -1,0 +1,18 @@
+<header class="site-header">
+    <h1 class="header-title">DENTAL HEALTH CLINIC</h1>
+    <button class="navbar-toggler second-button" (click)="toggleNav()" type="button" data-mdb-toggle="collapse"
+        data-mdb-target="#navbarToggleExternalContent10" aria-controls="navbarToggleExternalContent10"
+        aria-expanded="false" aria-label="Toggle navigation">
+        <div class="animated-icon2" [ngClass]="{ open: isOpen }"><span></span><span></span><span></span><span></span></div>
+    </button>
+
+    <nav class="navbar" [ngClass]="{ 'navbar-dispaly': isOpen }">
+        <ul class="navigation">
+            <li> <a href="#Services">Service</a></li>
+            <li> <a href="#about">About</a></li>
+            <li> <a href="#footer">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+
+

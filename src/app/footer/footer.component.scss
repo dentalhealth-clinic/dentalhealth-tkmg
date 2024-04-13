@@ -1,0 +1,99 @@
+.footer {
+    background-color: #005d54;
+    padding: 8.5rem 0 0 0;
+}
+.footer__container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    // max-width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+}
+@media (max-width: 768px) {
+    .footer {
+        padding: 9rem 0 0 0;
+    }
+    .footer__container {
+        flex-direction: column;
+        align-items: center;
+   }
+
+
+}
+.footer__contact, .footer__hours, .footer__getting-here {
+    flex: 1;
+    margin-bottom: 2rem;
+}
+@media (max-width: 768px) {
+    .footer__contact, .footer__hours, .footer__getting-here {
+        width: 100%;
+        margin-bottom: 0;
+   }
+   .footer__container h3 {
+    font-size: 2rem;
+    }
+ 
+   
+}
+
+.footer__container h3 {
+    font-size: 2rem;
+    }
+.footer__contact-heading, .footer__hours-heading, .footer__getting-here-heading {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+}
+.footer__contact-list, .footer__hours-table {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    margin: auto;
+}
+.footer__contact-item, .footer__hours-table tr {
+    display: flex;
+    align-items: center;
+    margin-bottom: 0.5rem;
+    justify-content: center;
+}
+.footer__contact-text, .footer__hours-time {
+    margin-left: 1rem;
+}
+.footer__hours-day, .footer__hours-time {
+    padding: 0 1rem 0rem 1rem;
+}
+.footer__hours-day {
+    font-weight: bold;
+}
+.footer__getting-here-address {
+    // margin-bottom: 1rem;
+}
+.footer__getting-here-map-link {
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+}
+.footer__getting-here-map-link:hover {
+    text-decoration: underline;
+}
+.footer__copyright {
+    text-align: center;
+    // margin-top: 2rem;
+    padding: 1rem;
+    background-color: #005d54;
+}
+@media (max-width: 768px) {
+    .footer__copyright {
+        margin-top: 0;
+   }
+}
+.footer__copyright-text {
+    margin-bottom: 0.5rem;
+}
+.footer__container h3 {
+    margin-top: 2rem;
+    }
+
+.footer__contact-text, .footer__hours-time, .footer__hours-day {
+    font-size: 1.5rem;
+}
