@@ -26,8 +26,8 @@
     position: relative;
     // padding: 4rem 1rem 8rem 2rem;
     padding: 2rem 1rem 4rem 2rem;
-    // background-color: #8f4cf3d4 ;
-    background-color: #8f4cf3a3 ;
+    background-color: #8f4cf3d4;
+    // background-color: #8f4cf3a3 ;
     height: 100%;
 }
 
@@ -309,12 +309,13 @@ z-index: 0;
         // clip-path: circle();
        }
     main section{
-        top:9.5rem;
+        top:7rem;
     }
     .section-second{
         // flex-direction: column;
+        flex-direction: column;
         .section2view{
-            margin-top: 6rem;
+            margin-top: 2rem;
             // margin-top: 1rem;
         }
         
