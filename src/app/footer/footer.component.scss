@@ -1,5 +1,6 @@
 .footer {
-    background-color: #005d54;
+    // background-color: #005d54;
+    background-color: #CAEBD3;
     padding: 8.5rem 0 0 0;
 }
 .footer__container {
@@ -23,7 +24,7 @@
 }
 .footer__contact, .footer__hours, .footer__getting-here {
     flex: 1;
-    margin-bottom: 2rem;
+    margin-bottom: 4rem;
 }
 @media (max-width: 768px) {
     .footer__contact, .footer__hours, .footer__getting-here {
@@ -43,6 +44,21 @@
 .footer__contact-heading, .footer__hours-heading, .footer__getting-here-heading {
     font-size: 1.2rem;
     margin-bottom: 1rem;
+}
+.footer__contact-list{
+    li {
+        padding-bottom: 10px;
+        a {
+        text-decoration: none;
+        color: black;
+        font-weight: bold;
+        
+        svg{
+            height: 20px;
+            width: 20px;
+        }
+    }}
+
 }
 .footer__contact-list, .footer__hours-table {
     list-style: none;
