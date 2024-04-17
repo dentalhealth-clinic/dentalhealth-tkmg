@@ -207,7 +207,7 @@ button.second-button{
         /* display: none; */
         background-color: #dcdcdce8;
         width: 0rem;
-        transition: 2s ease-in;
+        transition: 0.4s ease-in;
         top: 0;
         height: 100vh;
         
@@ -216,7 +216,7 @@ button.second-button{
       width: 68%;
       right: 0 !important;
       display: block;
-      transition: 1s ease-out;
+      transition: 0.4s ease-out;
     }
 
 }

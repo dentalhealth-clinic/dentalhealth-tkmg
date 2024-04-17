@@ -1,4 +1,4 @@
-import { CommonModule } from '@angular/common';
+import { CommonModule, ViewportScroller } from '@angular/common';
 import { Component,OnInit } from '@angular/core';
 
 @Component({
@@ -9,6 +9,26 @@ import { Component,OnInit } from '@angular/core';
   styleUrl: './header.component.scss'
 })
 export class HeaderComponent implements OnInit {
+  ngAfterViewInit() {
+
+    const buttons = document.querySelectorAll('.navigation li a');
+
+    buttons.forEach(button => {
+
+      button.addEventListener('click', (event) => {
+        event.preventDefault();
+        console.log("You clicked a button!");
+
+      });
+
+    });
+
+  }
+  constructor(private viewportScroller: ViewportScroller) {}
+
+  scrollToElement(elementId: string) {
+    this.viewportScroller.scrollToAnchor(elementId);
+  }
   ngOnInit(): void {
     interface WindowWithScroll {
       scrollY: number;
